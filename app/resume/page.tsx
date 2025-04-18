@@ -76,7 +76,7 @@ export default function resume() {
       {/* Download Resume */}
       <div className="pt-6">
         <a
-          href="/YOGANANDA_KS.pdf"
+          href="/yogi.pdf"
           download
           className="inline-flex items-center gap-2 bg-yellow-500 text-black font-semibold px-6 py-2 rounded-md hover:bg-yellow-400 transition"
         >

@@ -8,7 +8,7 @@ export default function Sidebar() {
         <img
           src="/icons/avatar.png"
           alt="Avatar"
-          className="w-34 h-34 rounded-full border-2 border-white mb-4"
+          className="w-34 h-34 rounded-full border-2 border-white mb-4 "
         />
         <h2 className="text-lg font-semibold">Yogananda K S</h2>
         <p className="text-sm text-gray-400">Full StackDeveloper</p>
@@ -25,7 +25,7 @@ export default function Sidebar() {
         </div>
         <div className="flex items-center justify-center gap-4 mt-4">
           <a
-            href="https://github.com/jswaroop123"
+            href="https://github.com/Yogi2084"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white text-xl"
@@ -33,7 +33,7 @@ export default function Sidebar() {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/jyothi-swaroop-n-9446912a9"
+            href="https://www.linkedin.com/in/yogananda-ks-185579353/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-white text-xl"
