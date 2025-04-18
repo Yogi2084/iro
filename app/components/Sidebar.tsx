@@ -23,6 +23,24 @@ export default function Sidebar() {
             <strong>Location:</strong> Karnataka, India
           </p>
         </div>
+        <div className="flex items-center justify-center gap-4 mt-4">
+          <a
+            href="https://github.com/jswaroop123"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-white text-xl"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jyothi-swaroop-n-9446912a9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-white text-xl"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
     </div>
   );

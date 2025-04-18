@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Resume
               </Link>
               <Link
-                href="/contact"
+                href="/projects"
                 className="px-4 py-2 bg-gray-800 rounded hover:bg-gray-700 transition"
               >
                 Projects
