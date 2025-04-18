@@ -4,7 +4,7 @@ import { FaGraduationCap, FaBriefcase, FaCertificate, FaDownload } from 'react-i
 
 export default function resume() {
   return (
-    <section className="text-white bg-neutral-900 min-h-screen p-6 md:p-12 space-y-8">
+    <section className="text-white bg-neutral-900 min-h-screen p-6 md:p-12 space-y-8 rounded-2xl">
       <h1 className="text-4xl font-bold">Resume</h1>
 
       {/* Education */}

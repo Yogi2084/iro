@@ -2,7 +2,7 @@
 
 export default function Projects() {
     return (
-      <section id="projects" className="space-y-8">
+      <section id="projects" className=" text-white bg-neutral-900 min-h-screen p-6 md:p-10 space-y-8 rounded-2xl">
         <h2 className="text-3xl font-bold text-white mb-6">Projects</h2>
   
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

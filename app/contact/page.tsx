@@ -6,7 +6,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <section className="p-10 space-y-6 max-w-xl">
+    <section className="space-y-6 max-w-xl text-white bg-neutral-900 min-h-screen p-6 md:p-12  rounded-2xl">
       <h1 className="text-3xl font-bold">Contact Me</h1>
       <p className="text-gray-300">
         Let's work together. Fill out the form below to get in touch.
