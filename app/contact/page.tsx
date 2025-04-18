@@ -6,15 +6,15 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <section className="space-y-6 max-w-xl text-white bg-neutral-900 min-h-screen p-6 md:p-12  rounded-2xl">
+    <section className="space-y-6 max-w-xl text-white bg-neutral-900 min-h-screen p-6 md:p-12 rounded-2xl">
       <h1 className="text-3xl font-bold">Contact Me</h1>
       <p className="text-gray-300">
-        Let's work together. Fill out the form below to get in touch.
+        {"Let's work together. Fill out the form below to get in touch."}
       </p>
 
       {submitted ? (
         <div className="text-green-500 font-semibold">
-          Thanks! I’ll get back to you soon.
+          {"Thanks! I’ll get back to you soon."}
         </div>
       ) : (
         <form
@@ -44,7 +44,7 @@ export default function Contact() {
           />
           <button
             type="submit"
-            className="px-6 py-2 bg-accent hover:bg-accent/90  bg-amber-50   text-black font-semibold rounded-md"
+            className="px-6 py-2 bg-accent hover:bg-accent/90 bg-amber-50 text-black font-semibold rounded-md"
           >
             Send Message
           </button>
