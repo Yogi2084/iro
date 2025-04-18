@@ -1,5 +1,4 @@
 // zink-portfolio/app/page.tsx
-import { GrResume } from "react-icons/gr";
 import About from "./components/About";
 import Services from "./components/Services";
 import Skills from "./components/Skills";

@@ -1,6 +1,6 @@
 'use client';
 
-import { FaGraduationCap, FaBriefcase, FaCertificate, FaDownload } from 'react-icons/fa';
+import { FaGraduationCap, FaCertificate, FaDownload } from 'react-icons/fa';
 
 export default function resume() {
   return (
