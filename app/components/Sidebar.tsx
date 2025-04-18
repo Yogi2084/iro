@@ -25,10 +25,10 @@ export default function Sidebar() {
           <div className="flex items-center gap-2">
             <FaEnvelope className="text-gray-300 text-lg" />
             <a
-              href="mailto:yogananda.1si22is405@saintgits.org"
+              href="mailto:yogananda.1si22is405@gmail.org"
               className="text-gray-300 hover:text-white text-sm"
             >
-              yogananda.1si22is405@saintgits.org
+              yogananda.1si22is....
             </a>
           </div>
           {/* Phone */}
