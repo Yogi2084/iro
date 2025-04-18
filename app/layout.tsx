@@ -24,13 +24,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 About
               </Link>
               <Link
-                href="/Resume"
+                href="/resume"
                 className="px-4 py-2 bg-gray-800 rounded hover:bg-gray-700 transition"
               >
                 Resume
               </Link>
               <Link
-                href="/projects"
+                href="/contact"
                 className="px-4 py-2 bg-gray-800 rounded hover:bg-gray-700 transition"
               >
                 Projects

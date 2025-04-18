@@ -3,7 +3,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Sidebar() {
   return (
-    <div className="w-[280px]  bg-[#4b4747] text-center p-16 hidden md:block rounded-2xl " >
+    <div className="w-[300px]  bg-[#4b4747] text-center p-16 hidden md:block rounded-2xl ">
       <div className="flex flex-col items-center">
         <img
           src="/icons/avatar.png"
@@ -22,33 +22,6 @@ export default function Sidebar() {
           <p>
             <strong>Location:</strong> Karnataka, India
           </p>
-        </div>
-        <a
-          href="/resume.pdf"
-          download
-          className="mt-6 inline-block bg-yellow-400 hover:bg-yellow-300 text-black font-semibold py-2 px-4 rounded-full transition"
-        >
-          Download Resume
-        </a>
-
-
-        <div className="flex items-center justify-center gap-4 mt-4">
-          <a
-            href="https://github.com/Yogi2084"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white text-xl"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yogananda-ks-185579353/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 hover:text-white text-xl"
-          >
-            <FaLinkedin />
-          </a>
         </div>
       </div>
     </div>
