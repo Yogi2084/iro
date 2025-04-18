@@ -6,8 +6,7 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-    <div className=" text-white bg-neutral-900 min-h-screen p-6 md:p-12 space-y-8 rounded-2xl">
-   
+    <div className="space-y-10 rounded-2xl " >
       <About />
       <Services />
       <Skills />
